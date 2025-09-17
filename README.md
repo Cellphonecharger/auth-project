@@ -41,6 +41,12 @@ This project is hosted on **Render**:
 ### Content Page
 ![Content Page](./project_screenshots/content.png)
 
+### MailTrap Email of Verification Code
+![Verification Email](./project_screenshots/verificationEmail.jpg)
+
+### MailTrap Welcome Email 
+![Welcome Email](./project_screenshots/welcomeEmail.jpg)
+
 ---
 
 ## ⚙️ Getting Started
