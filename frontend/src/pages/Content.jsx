@@ -8,13 +8,13 @@ export default function ContentPage() {
   const handleLogOut = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/auth/logout",
+        "/api/auth/logout",
         {},
         { withCredentials: true }
       );
       if (response.status === 200) {
         navigate("/login");
-        console.log("Logged out successfully");
+        console.log("Logged out successfully"); //log in the frontend
       }
       console.log("Response:", response.status, response.data);
     } catch (err) {
@@ -24,8 +24,8 @@ export default function ContentPage() {
   const [quote, setQuote] = useState(null);
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/auth/quotes", {
-        withCredentials: "include",
+      .get("/api/auth/quotes", {
+        withCredentials: true,
       })
       .then((res) => setQuote(res.data[0]))
       .catch((err) => console.error(err));

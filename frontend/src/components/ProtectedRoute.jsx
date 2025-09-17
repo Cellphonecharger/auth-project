@@ -11,7 +11,7 @@ export default function ProtectedRoute({ children }) {
     // Ask backend if user is authenticated
     const checkAuth = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/check-auth", {
+        const res = await axios.get("/api/auth/check-auth", {
           withCredentials: true, //
         });
         if (res.status === 200) {

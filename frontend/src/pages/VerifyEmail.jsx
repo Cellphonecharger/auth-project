@@ -18,7 +18,7 @@ export default function VerifyEmail() {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/api/auth/verify-email", {
+      const res = await fetch("/api/auth/verify-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code }),
