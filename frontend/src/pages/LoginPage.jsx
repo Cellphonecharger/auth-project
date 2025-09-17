@@ -63,7 +63,7 @@ export default function LoginPage() {
           className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
         />
         <p className="text-gray-400 text-sm">
-          Data: lililithjulile@gmail.com 1234
+          Data: lililithjulie@gmail.com 1234
         </p>
 
         {/* error message */}
