@@ -36,10 +36,10 @@ This project is hosted on **Render**:
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](./project_screenshots/homepage.png)
+![Home Page](./project_screenshots/homePage.png)
 
-### Login Page
-![Login Page](./project_screenshots/login.png)
+### Content Page
+![Content Page](./project_screenshots/content.png)
 
 ---
 
